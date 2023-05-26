@@ -1,0 +1,234 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    background-color: gray;
+}
+
+
+/* -----------common ------------*/
+.textcenter{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.textitalicandcnter{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+
+/*   ------------------navbar-------------- */
+.navbar{
+    background-color: black;
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    right: 0;
+}
+.searchicon{
+    padding: 12px 24px;
+}
+.searchicon:hover{
+    background-color: #f44336;
+}
+.navul{
+    display: flex;
+}
+.navbar ul li a{
+    padding: 12px 24px;
+    font-size: 15px;
+}
+.flexStyle{
+    display:none !important;
+}
+.dropdown{
+    display: block;
+    color: black;
+}
+
+.visible:hover .flexStyle{
+    display: block!important;
+    background-color: white;
+}
+
+
+/* ---------------section 1----------------------- */
+
+
+.images{
+    width: 100%;
+    display: block;
+}
+
+
+/* ------------------section 2-------------------------- */
+.container{
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 64px 16px;
+}
+.s2p1{
+    text-align: center;
+    margin: 15px 0;
+    font-style: italic;
+    color: gray;
+}
+.s2p2{
+    text-align: justify;
+    margin: 15px 0;
+}
+.s2p3{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.bandmember{
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+.bandmemberimg{
+    width: 154px;
+    height: 154px;
+    border-radius: 4px;
+}
+
+
+/* ------------------section 3------------------------------ */
+.section3{
+    background-color: black;
+    color: white;
+}
+.ticket{
+    background-color: white;
+    margin: 20px 0;
+}
+.ticketm{
+    border: 1px solid black;
+    color: black;
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.ticketmbtn{
+    background-color: #f44336;
+    padding: 0 10px;
+}
+.ticketicon{
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-radius: 15px;
+    padding: 4px 8px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.cardtext{
+    background-color:white;
+    color:black;
+    padding: 10px;
+}
+.cardimg{
+    width: 100%;
+    display: block;
+}
+.cardp1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.cardp2{
+    color: gray;
+    padding-bottom: 10px;
+}
+.cardp3{
+    padding-bottom: 10px;
+}
+.cardbtn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.section3icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+/* -------------------section4------------------ */
+.info:not(:last-child){
+    margin-bottom: 15px;
+}
+.section3iconimg{
+    vertical-align: middle;
+}
+
+/* ------------------------------------------------------ */
+.contact{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.formNameEmail{
+    display: flex;
+    padding-bottom: 15px;
+    gap: 10px;
+}
+.formbutton{
+    text-align: right;
+}
+.formbutton1{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+.formbutton1:hover{
+    background-color: gray;
+}
+.forminput{
+    padding: 10px;
+    width: 100%;
+}
+
+
+/* ----------------footer--------------------------- */
+.socialiconimg{
+    width: 24px;
+    height: 24;
+}
+.footer{
+    padding: 64px 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.footerlink{
+    color: black;
+    text-decoration: underline;
+}
